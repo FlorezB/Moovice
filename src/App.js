@@ -1,16 +1,14 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/home';
-import Weekly from './pages/weekly';
-import Popular from './pages/popular';
-import Favorites from './pages/favorites';
-import NotFound from './pages/notFound';
+import Home from './pages/Home';
+import Weekly from './pages/Weekly';
+import Popular from './pages/Popular';
+import Favorites from './pages/Favorites';
+import NotFound from './pages/NotFound';
+import { useEffect } from 'react';
 
 const App = () => {
 
-  const filmsData = async () => {
-    const request = await fetch ('')
-    const response = await request.json()
-  }
+
 
   return (
     <BrowserRouter>
